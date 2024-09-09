@@ -40,7 +40,7 @@ nav.menu ul li a:hover {
 header#hero {
     height: 350px;
     background-color: #b4c6f0;
-    background-image: url('/pb/bg.png');
+    background-image: url('bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -63,9 +63,40 @@ header#hero h2 {
     color: #4d5791;
 }
 
+p {
+    font-size: 1.6em;
+    line-height: 1.8;
+    margin: 0 0 20px;
+    padding: 0 20px;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+}
+.text-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.text-box h1 {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    color: #4d5791;
+}
+
+.text-box p {
+    font-size: 1.6em;
+    color: #333;
+}
+
 .container {
-    padding: 40px;
+    padding: 20px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .page-area {
