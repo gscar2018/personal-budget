@@ -16,6 +16,22 @@ const budget = {
         }, {
             title: 'Grocery',
             budget: 90
+        },
+        {
+            title: 'Utilities',
+            budget: 100
+        },
+        {
+            title: 'Internet',
+            budget: 50
+        },
+        {
+            title: 'Phone',
+            budget: 50
+        },
+        {
+            title: 'Car',
+            budget: 100
         }
     ]
 };
